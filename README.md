@@ -20,6 +20,13 @@
   - 先分地区排序，记录`local_rank`，最后总排序并输出`final_rank`
   - 用`long long`存register number，注意输出是13位数字，左边补零,`%013lld`
   - 用`long long`存register number，写比较函数时，返回值是`int`，可能溢出
+- **1024**
+  - 用`long long`存数，有两个测试点通不过
+  - 用字符串存数和加法，注意进位`carry`
+  
 
-
+- **1059**
+  - 用“筛法”把所有素数标记出来，然后对输入`N`进行素数分解
+  - N本身是素数，输出`N=N`
+- 
 
